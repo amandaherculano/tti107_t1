@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .borda-inferior {
+          border-bottom: 1px solid #000; /* Cor e espessura da borda */
+        }
+
+        .texto-grande {
+            font-size: 24px; /* Tamanho da fonte em pixels */
+        }
+
+        .caixas {
+            text-align: center;
+            /* margin: 10px; */
+
+            
+        }
+
+        .container-com-borda-arredondada {
+            border: 2px solid #000; /* Cor e espessura da borda */
+            border-radius: 10px; /* Raio do arredondamento */
+            padding: 5px; /* Espaçamento interno */
+        }
+        
+
+      </style>
+    </head>
+</body>
+    <div class="container-fluid p-4" >
+        <div class="row ">
+            <div class="col-12 text-center">
+                <span class="borda-inferior texto-grande">Professores</span>
+            </div>
+        </div>
+    </div>
+    <div class="container-sm ">
+        
+        <div class="row caixas">
+        
+            <div class="container-com-borda-arredondada col-sm-12 col-md-4 mt-2 offset-md-2 me-1">
+                <img
+                    src="imagens/professora.jpg"
+                    alt="professora"
+                    height="150"
+                    > 
+                    
+                    <p>
+                        <span class="texto-grande">Profa. Cristina</span>
+                    </p>
+    
+                    <p>
+                        Front End
+                    </p>
+            </div>
+
+            <!-- <div class = "col-md-1"></div> -->
+            <div class="container-com-borda-arredondada col-sm-12 col-md-4 mt-2 ">
+                <img 
+                    src="imagens/professor.jpg"
+                    alt="Professor"
+                    height="150"> 
+
+                <p>
+                    <span class="texto-grande">Prof. José</span>
+                </p>
+
+                <p>
+                    Devops
+                </p>
+
+            </div>
+    </div>
+</html>
+
+
+<!-- espacamento quando esta grande e definir medida fixa -->
+
+
+
+<!-- git init
+git add .
+git commit -m "final"
+CRIAR REPOSITORIO
+copiar link 
+criar um token 
+link + token
+git remote add origin link montado 
+git push origin main    -->
